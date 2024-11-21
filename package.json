@@ -1,10 +1,10 @@
 {
   "name": "gemini-telegram-bot",
   "version": "1.0.0",
-  "description": "Un bot Telegram utilisant GPT via Gemini.",
-  "main": "gemini_bot.js",
+  "description": "Bot Telegram utilisant l'API Gemini pour générer des réponses GPT.",
+  "main": "index.js",
   "scripts": {
-    "start": "node gemini_bot.js",
+    "start": "node index.js",
     "restart": "npm stop && npm start"
   },
   "keywords": [
@@ -14,7 +14,7 @@
     "gpt",
     "nodejs"
   ],
-  "author": "Hans",
+  "author": "Hans Tech",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.5.0",
